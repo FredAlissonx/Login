@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("img/fundo.jpg");
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+.area-login {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    
+    justify-content: center;
+}
+.login {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 370px;
+    height: 345px;
+    padding: 35px;
+    border-radius: 5px;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.login input {
+    margin-top: 10px;
+    background-color: #808080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    cursor: default
+    ;
+}
+.login img {
+    position: relative;
+    width: 120px;
+    height: auto;
+    bottom: 5px;
+   
+}
+input::placeholder{
+    color: white;
+    font-size: 15px;
+}
+form [type="submit"]{
+    position: relative;
+    top: 100px;
+    display: block;
+    background-color: indigo;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    top: 60px;
+}
+#check {
+    width: 13px;
+    position: relative;  
+    bottom: 79px;
+}
+#remember {
+    color: white;
+    position: relative;
+    font-size: 15px;
+    bottom: 40px;
+    left: 17px;
+    cursor: default;
+}
+#forgot {
+    color: white;
+    position: relative;
+    font-size: 15px;
+    bottom: 107px;
+    left: 250px;
+}
+#new {
+    color: white;
+    cursor: defaultx;
+}
+#new a {
+    color: blueviolet;
+    text-decoration: none;
+    
+}
+.now {
+    text-decoration: none;
+}
